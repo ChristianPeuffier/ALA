@@ -32,3 +32,7 @@ Vault est une solution de gestion de secrets et de chiffrement « identity-based
 Vault est largement adopté dans l’industrie et est open-source ; une édition Enterprise existe en plus.
 Documentation : https://developer.hashicorp.com/vault/docs
 Tutoriel : https://developer.hashicorp.com/vault/tutorials
+
+- AWS Secrets Manager — https://aws.amazon.com/secrets-manager/
+Service géré par Amazon Web Services pour stocker, récupérer et faire tourner automatiquement des secrets (identifiants, clés API, tokens) sans les hardcoder dans nos applis.
+Il est très populaire mais non open-source. Il a une documentation sur https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html et des tutoriels : https://docs.aws.amazon.com/secretsmanager/latest/userguide/tutorials.html
