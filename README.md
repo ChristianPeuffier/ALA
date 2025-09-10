@@ -21,6 +21,9 @@ Il peut générer des secrets dynamiques, fournir un service de chiffrement et i
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
         La Secrets Management Cheat Sheet de l’OWASP présente les bonnes pratiques pour gérer les secrets (mots de passe, clés API, certificats). Elle insiste sur l’importance de ne jamais stocker ces données en clair dans le code ou dans les dépôts. Le document recommande l’usage de coffres-forts à secrets, de la rotation régulière, et de contrôles d’accès stricts. L’objectif est de limiter les risques de fuite et d’améliorer la sécurité des applications.
+- https://knox-app.com/
+  Knox est un SaaS de gestion de secrets (« Secrets as a Service ») qui centralise clés, tokens et configurations pour éviter de les stocker dans des dépôts ou de les partager par mail/Slack.
+Processus simple : stocker les secrets, créer des tokens pour y accéder via une requête HTTPS, mettre à jour les valeurs et révoquer les tokens — intégration facile et possibilité d’essayer gratuitement.
 
 ## 2. Outils potentiels
 
