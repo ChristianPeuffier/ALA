@@ -11,7 +11,7 @@
 - https://medium.com/@pgpg05/secret-management-in-ci-cd-pipeline-982846596181
 - https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/
 - https://www.devoteam.com/fr/expert-view/hashicorp-vault/
--         HashiCorp Vault est un coffre-fort centralisé pour secrets (mots de passe, clés, certificats) avec contrôle d’accès et audit.
+HashiCorp Vault est un coffre-fort centralisé pour secrets (mots de passe, clés, certificats) avec contrôle d’accès et audit.
 Il peut générer des secrets dynamiques, fournir un service de chiffrement et intégrer plusieurs méthodes d’authentification (AppRole, tokens…).
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
