@@ -5,7 +5,7 @@
 - https://www.gologic.ca/fr-fr/gestion-des-secrets-dans-les-pipelines-ci-cd/
 - https://capgo.app/fr/blog/managing-secrets-in-cicd-pipelines/#secrets-dans-le-contr%C3%B4le-de-version
 - https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets
-    - Les secrets dans GitHub Actions servent à protéger et gérer les informations sensibles comme des clés API ou mots de passe. Ils sont stockés de façon chiffrée dans le dépôt, l’organisation ou l’environnement. Lorsqu’un workflow s’exécute, ces secrets peuvent être injectés sous forme de variables d’environnement. Cela permet d’automatiser des actions sécurisées sans jamais exposer publiquement les données confidentielles.
+    - Les secrets permettent de stocker et utiliser des informations sensibles (ex. : tokens, mots de passe) de manière sécurisée dans un workflow GitHub Actions. Ils évitent d’exposer ces données dans le code. Les secrets sont chiffrés, définis au niveau du dépôt, de l’organisation ou d’un environnement, et injectés sous forme de variables lors de l’exécution des workflows.
 - https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/secrets/
 - https://medium.com/@pgpg05/secret-management-in-ci-cd-pipeline-982846596181
 - https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/#:~:text=It%20is%20important%20to%20follow,impact%20of%20a%20potential%20breach
