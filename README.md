@@ -21,3 +21,9 @@ Il peut générer des secrets dynamiques, fournir un service de chiffrement et i
         La Secrets Management Cheat Sheet de l’OWASP présente les bonnes pratiques pour gérer les secrets (mots de passe, clés API, certificats). Elle insiste sur l’importance de ne jamais stocker ces données en clair dans le code ou dans les dépôts. Le document recommande l’usage de coffres-forts à secrets, de la rotation régulière, et de contrôles d’accès stricts. L’objectif est de limiter les risques de fuite et d’améliorer la sécurité des applications.
 
 ## 2. Outils potentiels
+
+- HashiCorp Vault — https://www.hashicorp.com/en/products/vault
+Vault est une solution de gestion de secrets et de chiffrement « identity-based » qui centralise le stockage, la distribution et la rotation de mots de passe, clés, certificats et secrets dynamiques via une API, une CLI ou une UI. Il supporte la génération/rotation dynamique de credentials, le chiffrement en tant que service et l’audit des accès.
+Vault est largement adopté dans l’industrie et est open-source ; une édition Enterprise existe en plus.
+Documentation : https://developer.hashicorp.com/vault/docs
+Tutoriel : https://developer.hashicorp.com/vault/tutorials
