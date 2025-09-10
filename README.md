@@ -43,8 +43,10 @@ Il est très populaire mais non open-source.
 Documentation : https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html
 Tutoriel : https://docs.aws.amazon.com/secretsmanager/latest/userguide/tutorials.html
 
--Microsoft Azure Key Vault — https://azure.microsoft.com/products/key-vault/
+- Microsoft Azure Key Vault — https://azure.microsoft.com/products/key-vault/
 Service cloud géré pour stocker et gérer secrets, clés cryptographiques et certificats avec support HSM — conçu pour éviter le hardcoding des identifiants et centraliser le contrôle d’accès. Intégration native avec Azure (Authentification via Microsoft Entra/AD, RBAC, monitoring).
 Il est largement utilisé dans l’écosystème Azure (Microsoft), mais n'est pas open-source.
 Documentation : https://learn.microsoft.com/en-us/azure/key-vault/
 Tutoriel : https://learn.microsoft.com/en-us/azure/key-vault/general/quick-create-portal
+
+- GitHub Actions Secret
