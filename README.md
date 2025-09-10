@@ -9,7 +9,10 @@
 - https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/secrets/
          Les Secrets Kubernetes classiques présentent une faiblesse : ils sont stockés dans les manifests en base64, ce qui les rend vulnérables aux attaques et aux fuites d’informations. La restriction des accès avec RBAC, le chiffrement des Secrets dans etcd, ou l’utilisation d’une solution de gestion externe renforce la sécurité des applications Kubernetes.
 - https://medium.com/@pgpg05/secret-management-in-ci-cd-pipeline-982846596181
-- https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/#:~:text=It%20is%20important%20to%20follow,impact%20of%20a%20potential%20breach
+- https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/
+- https://www.devoteam.com/fr/expert-view/hashicorp-vault/
+-         HashiCorp Vault est un coffre-fort centralisé pour secrets (mots de passe, clés, certificats) avec contrôle d’accès et audit.
+Il peut générer des secrets dynamiques, fournir un service de chiffrement et intégrer plusieurs méthodes d’authentification (AppRole, tokens…).
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
         La Secrets Management Cheat Sheet de l’OWASP présente les bonnes pratiques pour gérer les secrets (mots de passe, clés API, certificats). Elle insiste sur l’importance de ne jamais stocker ces données en clair dans le code ou dans les dépôts. Le document recommande l’usage de coffres-forts à secrets, de la rotation régulière, et de contrôles d’accès stricts. L’objectif est de limiter les risques de fuite et d’améliorer la sécurité des applications.
