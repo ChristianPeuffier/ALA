@@ -19,6 +19,7 @@ L’évolution va donc du stockage chiffré vers l’authentification dynamique 
 HashiCorp Vault est un coffre-fort centralisé pour secrets (mots de passe, clés, certificats) avec contrôle d’accès et audit.
 Il peut générer des secrets dynamiques, fournir un service de chiffrement et intégrer plusieurs méthodes d’authentification (AppRole, tokens…).
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
+  Exemple de mise en place et d'utilisation de gestion de secret. Exemple netflix
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
         La Secrets Management Cheat Sheet de l’OWASP présente les bonnes pratiques pour gérer les secrets (mots de passe, clés API, certificats). Elle insiste sur l’importance de ne jamais stocker ces données en clair dans le code ou dans les dépôts. Le document recommande l’usage de coffres-forts à secrets, de la rotation régulière, et de contrôles d’accès stricts. L’objectif est de limiter les risques de fuite et d’améliorer la sécurité des applications.
 - https://knox-app.com/
