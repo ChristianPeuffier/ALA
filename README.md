@@ -1,4 +1,4 @@
-# Gestion de secrets -- Exploration documentaire
+# Gestion de secrets - Exploration documentaire
 
 ## 1. Ressources documentaires
 
