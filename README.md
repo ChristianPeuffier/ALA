@@ -8,6 +8,8 @@ Voûtes de secrets : coffres-forts centralisés (intégrés, cloud ou tiers) off
 Identifiants temporaires (OIDC) : jetons éphémères générés à chaque pipeline, considérés comme la solution la plus sécurisée et moderne.
 L’évolution va donc du stockage chiffré vers l’authentification dynamique sans secrets statiques.
 - https://capgo.app/fr/blog/managing-secrets-in-cicd-pipelines/#secrets-dans-le-contr%C3%B4le-de-version
+  Dans les pipelines CI/CD, les secrets les plus courants sont les clés d’API, identifiants de bases de données, clés de chiffrement, jetons d’authentification et certificats SSL. Leur gestion sécurisée est cruciale, car une fuite pourrait exposer des ressources sensibles et compromettre la sécurité de l’ensemble du système.
+  
 - https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets
         Les secrets permettent de stocker et utiliser des informations sensibles (ex. : tokens, mots de passe) de manière sécurisée dans un workflow GitHub Actions. Ils évitent d’exposer ces données dans le code. Les secrets sont chiffrés, définis au niveau du dépôt, de l’organisation ou d’un environnement, et injectés sous forme de variables lors de l’exécution des workflows.
 - https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/secrets/
