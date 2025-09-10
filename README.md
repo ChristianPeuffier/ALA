@@ -1,4 +1,7 @@
-# Gestion de secrets
+# Gestion de secrets -- Exploration documentaire
+
+## 1. Ressources documentaires
+
 - https://www.gologic.ca/fr-fr/gestion-des-secrets-dans-les-pipelines-ci-cd/
 - https://capgo.app/fr/blog/managing-secrets-in-cicd-pipelines/#secrets-dans-le-contr%C3%B4le-de-version
 - https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets
@@ -7,3 +10,5 @@
 - https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/#:~:text=It%20is%20important%20to%20follow,impact%20of%20a%20potential%20breach
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+
+## 2. Outils potentiels
