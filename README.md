@@ -29,10 +29,18 @@ Processus simple : stocker les secrets, créer des tokens pour y accéder via un
 
 - HashiCorp Vault — https://www.hashicorp.com/en/products/vault
 Vault est une solution de gestion de secrets et de chiffrement « identity-based » qui centralise le stockage, la distribution et la rotation de mots de passe, clés, certificats et secrets dynamiques via une API, une CLI ou une UI. Il supporte la génération/rotation dynamique de credentials, le chiffrement en tant que service et l’audit des accès.
-Vault est largement adopté dans l’industrie et est open-source ; une édition Enterprise existe en plus.
+Vault est largement adopté et est open-source ; une édition Enterprise existe en plus.
 Documentation : https://developer.hashicorp.com/vault/docs
 Tutoriel : https://developer.hashicorp.com/vault/tutorials
 
 - AWS Secrets Manager — https://aws.amazon.com/secrets-manager/
 Service géré par Amazon Web Services pour stocker, récupérer et faire tourner automatiquement des secrets (identifiants, clés API, tokens) sans les hardcoder dans nos applis.
-Il est très populaire mais non open-source. Il a une documentation sur https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html et des tutoriels : https://docs.aws.amazon.com/secretsmanager/latest/userguide/tutorials.html
+Il est très populaire mais non open-source.
+Documentation : https://docs.aws.amazon.com/secretsmanager/latest/userguide/intro.html
+Tutoriel : https://docs.aws.amazon.com/secretsmanager/latest/userguide/tutorials.html
+
+-Microsoft Azure Key Vault — https://azure.microsoft.com/products/key-vault/
+Service cloud géré pour stocker et gérer secrets, clés cryptographiques et certificats avec support HSM — conçu pour éviter le hardcoding des identifiants et centraliser le contrôle d’accès. Intégration native avec Azure (Authentification via Microsoft Entra/AD, RBAC, monitoring).
+Il est largement utilisé dans l’écosystème Azure (Microsoft), mais n'est pas open-source.
+Documentation : https://learn.microsoft.com/en-us/azure/key-vault/
+Tutoriel : https://learn.microsoft.com/en-us/azure/key-vault/general/quick-create-portal
