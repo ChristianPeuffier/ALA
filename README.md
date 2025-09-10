@@ -11,5 +11,6 @@
 - https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/#:~:text=It%20is%20important%20to%20follow,impact%20of%20a%20potential%20breach
 - https://jsaer.com/download/vol-8-iss-2-2021/JSAER2021-8-2-289-295.pdf
 - https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+      - La Secrets Management Cheat Sheet de l’OWASP présente les bonnes pratiques pour gérer les secrets (mots de passe, clés API, certificats). Elle insiste sur l’importance de ne jamais stocker ces données en clair dans le code ou dans les dépôts. Le document recommande l’usage de coffres-forts à secrets, de la rotation régulière, et de contrôles d’accès stricts. L’objectif est de limiter les risques de fuite et d’améliorer la sécurité des applications.
 
 ## 2. Outils potentiels
