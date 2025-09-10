@@ -9,7 +9,6 @@
 - https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/secrets/
          Les Secrets Kubernetes classiques présentent une faiblesse : ils sont stockés dans les manifests en base64, ce qui les rend vulnérables aux attaques et aux fuites d’informations. La restriction des accès avec RBAC, le chiffrement des Secrets dans etcd, ou l’utilisation d’une solution de gestion externe renforce la sécurité des applications Kubernetes.
 - https://medium.com/@pgpg05/secret-management-in-ci-cd-pipeline-982846596181
-- https://blog.gitguardian.com/how-to-handle-secrets-with-jenkins/
 - https://www.devoteam.com/fr/expert-view/hashicorp-vault/
 HashiCorp Vault est un coffre-fort centralisé pour secrets (mots de passe, clés, certificats) avec contrôle d’accès et audit.
 Il peut générer des secrets dynamiques, fournir un service de chiffrement et intégrer plusieurs méthodes d’authentification (AppRole, tokens…).
