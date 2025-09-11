@@ -15,7 +15,6 @@ L’évolution va donc du stockage chiffré vers l’authentification dynamique 
 - https://blog.stephane-robert.info/docs/conteneurs/orchestrateurs/kubernetes/secrets/
          Les Secrets Kubernetes classiques présentent une faiblesse : ils sont stockés dans les manifests en base64, ce qui les rend vulnérables aux attaques et aux fuites d’informations. La restriction des accès avec RBAC, le chiffrement des Secrets dans etcd, ou l’utilisation d’une solution de gestion externe renforce la sécurité des applications Kubernetes.
 - https://medium.com/@pgpg05/secret-management-in-ci-cd-pipeline-982846596181
- <img width="1100" height="707" alt="image" src="https://github.com/user-attachments/assets/fc68078a-3f2c-44c2-9a1e-9ef9aac6fda2" />
  Cet article explique comment intégrer la gestion des secrets dans les pipelines CI/CD afin d’éviter les fuites de données sensibles. Il déconseille fortement de stocker les secrets en clair (dans le code ou les fichiers de config) et recommande d’utiliser des solutions dédiées comme HashiCorp Vault, AWS Secrets Manager ou GitHub Actions Secrets. L’accent est mis sur l’automatisation, la rotation des secrets et leur injection sécurisée au moment de l’exécution. L’objectif est de concilier sécurité et fluidité des déploiements.
 
 - https://www.devoteam.com/fr/expert-view/hashicorp-vault/
@@ -50,3 +49,5 @@ Documentation : https://learn.microsoft.com/en-us/azure/key-vault/
 Tutoriel : https://learn.microsoft.com/en-us/azure/key-vault/general/quick-create-portal
 
 - GitHub Actions Secret
+  https://docs.github.com/en/actions/concepts/security/secrets
+  Gestion de secret intégré à la plateforme GitHub permettant une gestion plus facile d'accès sans tiers. Simple à mettre en place et sans surcout
