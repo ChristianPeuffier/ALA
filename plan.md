@@ -1,65 +1,65 @@
 Plan proposé
 1. Introduction
 
-Définition simple de ce qu’est un secret (mot de passe, clé API, certificat, token, etc.)
+Qu’est-ce qu’un “secret” ? → mot de passe, clé API, certificat, token.
 
-Pourquoi c’est critique dans les pipelines CI/CD.
+Pourquoi c’est critique en CI/CD ? → les pipelines manipulent ces secrets automatiquement.
 
-Exemple d’incident réel dû à une fuite de secrets (ex. clés publiées sur GitHub).
+Annonce du plan : on verra d’abord l’importance stratégique (vue manager), puis comment faire concrètement (vue développeurs).
 
-2. Partie théorique – Public non spécialiste
+2. Partie théorique – Public non spécialiste (8 min)
 
-Contexte et motivations
+🎯 Objectif : convaincre managers/directeurs de l’importance stratégique.
 
-Augmentation des automatisations dans DevOps.
+2.1 Les risques
 
-Risques principaux : fuite de données, compromission d’infrastructure, attaques supply chain.
+Fuite de secrets → intrusions, pertes de données, sanctions (RGPD, NIS2).
 
-Notions fondamentales
+Impact financier et réputationnel : arrêt de service, perte de confiance clients.
 
-Où les secrets apparaissent (build, test, déploiement, accès aux services cloud).
+2.2 Exemple réel marquant (au lieu d’en intro)
 
-Mauvaises pratiques courantes :
+Incident Uber 2022 : un attaquant a exploité une clé exposée pour accéder au système interne.
 
-secrets en clair dans le code,
+Résultat : compromission massive, communication de crise, perte de confiance.
 
-variables d’environnement non sécurisées,
+2.3 Les enjeux business
 
-partage manuel de mots de passe.
+Sécuriser les actifs stratégiques.
 
-Bonnes pratiques
+Réduire le risque juridique et financier.
 
-Principe du moindre privilège.
+Montrer que l’entreprise prend la cybersécurité au sérieux.
 
-Rotation régulière des secrets.
+2.4 Grandes solutions (vue d’ensemble, non technique) Tableau !
 
-Chiffrement et audit.
+Outils intégrés (GitHub, GitLab).
 
-Utilisation de coffres-forts à secrets.
+Solutions cloud (AWS/GCP/Azure).
 
-3. Partie pratique  – Public d’utilisateurs potentiels
+Open source (Vault, SOPS).
 
-Présentation d’un outil principal
+➡️ Message clé managers : Investir dans la gestion des secrets = protéger l’image et la valeur de l’entreprise.
 
-Exemple :GitHub Actions secrets, HashiCorp Vault, AWS Secrets Manager.
+3. Partie pratique – Public technique (8-9 min)
 
-Fonctionnement général : stockage centralisé, chiffrement, gestion fine des accès.
+🎯 Objectif : donner aux développeurs des outils et méthodes concrètes.
 
-Mini tutoriel (démonstration ou slides illustrées)
+3.1 Panorama d’outils
 
-Création d’un secret.
+GitHub Actions Secrets → simple, natif.
 
-Intégration d’un secret dans une pipeline CI/CD ( GitHub Actions).
+GitLab CI/CD Variables → gestion par environnement.
 
-Exécution du pipeline en utilisant ce secret.
+HashiCorp Vault → complet, open source, rotation.
 
-Avantages et limites
+AWS Secrets Manager → rotation auto, natif AWS.
 
-Sécurité et conformité améliorées.
+3.2 Mini tutoriel / démo
 
-Gestion simplifiée des clés.
+Exemple YAML : injection d’un secret dans un pipeline CI/CD.
 
-Limites : complexité de mise en place, coût, formation nécessaire.
+Démonstration visuelle : pipeline → appel secret → déploiement.
 
 4. Conclusion (1-2 min)
 
